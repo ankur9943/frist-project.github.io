@@ -1,0 +1,154 @@
+@media screen and (max-width: 1170px)(min-width: 1024px){
+	.f-ooter {
+    	height: 475px
+    }
+	
+}
+
+@media screen and (max-width: 992px){
+		.dropdown-menu{
+			min-width: 700px;
+		    left: -350px;
+		}
+		.f-ooter {
+    		height: 515px
+    	}
+}
+@media screen and (max-width: 768px){
+		.dropdown-menu{
+			min-width: fit-content;
+    		left: 7px;
+    		right: 7px;
+    		padding: 15px 7px;
+		}
+		.navbar-nav .dropdown-menu{
+			position: absolute
+		}
+		.drooop-grid-menu a{
+			width: 100%;
+		}
+		.dropdown:focus .dropdown-menu{
+			opacity: 1;
+			visibility:visible;
+			transform:translateY(0px)	
+		}
+		.f-ooter {
+    		height: 563px
+    	}
+    	.offcanvas-end { 
+		padding-top:7rem;
+		width: 100%;
+		}
+		.web-img{
+			max-width: 100%;
+		}
+		.about-in {
+		    padding-left: 3em;
+		    padding-right: 3em
+		}
+	    .offcanvas {
+	    	background-color: #000d4a;
+	    }
+	    .fixed-top .offcanvas{
+			height: 100vh;
+			animation: none
+		}
+		.fixed-top .offcanvas .navbar-nav .nav-link{
+		color: #fff;
+		} 
+		  .back-shape{
+		clip-path: inset(0 0 0 0);
+	}   
+}
+
+@media screen and (max-width: 592px){
+	.f-ooter {
+    	height: 600px
+    }
+	.about-in {
+		padding-left: 2em;
+		padding-right: 2em
+	}
+    .category-content {
+    	padding: 30px 0px;
+    }
+    .caption{
+    	padding-top: 100px;
+    }
+    .d-sm-block{
+    	width: 95%;
+    	margin-top: 10px!important;
+    	margin-left: auto;
+    	margin-right:auto  	
+    }
+    .two-btn button{
+    	padding:1px 18px!important
+    }
+    .ecommerce-process{
+    	margin: 30px 10px 10px;
+    	background: none
+    }
+    .ecpr-box{
+   		left: 0;
+    	width: 100%
+    }
+    .coding-standerd .col-lg-3 {
+	    border-right: none;
+	    border-bottom: 1px solid #fff;
+	}
+    .row{
+    	--bs-gutter-x: 0px;
+    }
+    .left{
+    	padding-left: 10px;
+    	padding-right: 10px;
+    }
+  
+  
+}
+
+@media screen and (max-width: 442px){
+	.partner-f p{
+		flex-flow: column;
+		width: auto!important;
+		align-items: flex-start;
+	}
+	.about-in {
+		    padding-left: 1em;
+		    padding-right: 1em}
+	.two-btn{
+		flex-flow: column;
+		align-items:start;
+		flex-direction: column-reverse;
+		gap: 1rem!important;
+	}
+	.dropdown-menu {
+    	padding: 15px 5px
+	}
+	.textnimonail .slider{
+		width: 100%;
+	}
+	.contact-felid  .slick-next{
+		right: -2px;
+		z-index: 9;
+	}
+	.contact-felid .slick-prev {
+		left: -10px;
+		z-index: 9
+	}	
+	.lets-talk{
+		 flex-flow: column!important;
+	    margin-top: 70px;
+	    padding: 30px;
+
+	}	
+}
+@media screen and (max-width: 380px){
+	.service-option a{
+		padding: 30px;
+	}
+	.service-sect {
+		padding: 30px 15px;
+	}
+     
+}
