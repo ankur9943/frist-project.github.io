@@ -58,7 +58,8 @@
 		} 
 		  .back-shape{
 		clip-path: inset(0 0 0 0);
-	}   
+	} 
+	 
 }
 
 @media screen and (max-width: 592px){
@@ -96,9 +97,7 @@
 	    border-right: none;
 	    border-bottom: 1px solid #fff;
 	}
-    .row{
-    	--bs-gutter-x: 0px;
-    }
+  
     .left{
     	padding-left: 10px;
     	padding-right: 10px;
