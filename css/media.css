@@ -58,8 +58,7 @@
 		} 
 		  .back-shape{
 		clip-path: inset(0 0 0 0);
-	} 
-	 
+	}   
 }
 
 @media screen and (max-width: 592px){
@@ -97,7 +96,9 @@
 	    border-right: none;
 	    border-bottom: 1px solid #fff;
 	}
-  
+    .row{
+    	--bs-gutter-x: 0px;
+    }
     .left{
     	padding-left: 10px;
     	padding-right: 10px;
@@ -139,8 +140,24 @@
 		 flex-flow: column!important;
 	    margin-top: 70px;
 	    padding: 30px;
-
 	}	
+	.float-social svg {
+	    font-size: 20px;
+	    color: white;
+	    margin-right: 10px;
+	}
+	.float-social >a {
+    	right: -162px;
+	}
+	.live-chat{
+    	width: min(55px, 40%);
+    	height: min(55px, 40%);
+    	z-index: 999;
+	}
+	.live-chat svg{
+		width: 35px;
+		height: 35px;
+	}
 }
 @media screen and (max-width: 380px){
 	.service-option a{
