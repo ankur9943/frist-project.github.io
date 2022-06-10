@@ -16,11 +16,7 @@ body,
 html{
 	overflow-x: hidden!important;
 }
-* .row{
-	--bs-gutter-x: 0px;
-	margin-left: 0px;
-	margin-left: 0px;
-} 
+
 .bg-white{background-color: #fff;}
 
 
