@@ -2,66 +2,63 @@
 	.f-ooter {
     	height: 475px
     }
-}
-@media screen and (min-width: 992px){
-	.dropdown:hover> .dropdown-menu{
-		opacity: 1;
-		visibility:visible;
-		transform: translateY(8px);
-		border-top: 0px;
-	}
-	.dropdown-menu{
-		visibility:hidden;
-		opacity: 0;
-		transform:translateY(100px);
-		transition: all .3s;
-		min-width: 1025px;
-	    left: -700px;
-	  	position: absolute;
-	}
+	
 }
 
 @media screen and (max-width: 992px){
+		.dropdown-menu{
+			min-width: 700px;
+		    left: -350px;
+		}
 		.f-ooter {
     		height: 515px
     	}
 }
-@media screen and (max-width: 767px){
-	.drooop-grid-menu a{
-		width: 100%;
-	}
-	.dropdown-menu{
-		margin-inline: 10px;
-		border-radius: 12px;
-	}
-	.f-ooter {
-		height: 563px
-	}
-	.offcanvas-end { 
+@media screen and (max-width: 768px){
+		.dropdown-menu{
+			min-width: fit-content;
+    		left: 7px;
+    		right: 7px;
+    		padding: 15px 7px;
+		}
+		.navbar-nav .dropdown-menu{
+			position: absolute
+		}
+		.drooop-grid-menu a{
+			width: 100%;
+		}
+		.dropdown:focus .dropdown-menu{
+			opacity: 1;
+			visibility:visible;
+			transform:translateY(0px)	
+		}
+		.f-ooter {
+    		height: 563px
+    	}
+    	.offcanvas-end { 
 		padding-top:7rem;
 		width: 100%;
-	}
-	.web-img{
-		max-width: 100%;
-	}
-	.about-in {
-	    padding-left:3em;
-	    padding-right:3em
-	}
-    .offcanvas {
-    	background-color:#000d4a;
-    }
-    .fixed-top .offcanvas{
-		height: 100vh;
-		animation: none
-	}
-	.fixed-top .offcanvas .navbar-nav .nav-link{
+		}
+		.web-img{
+			max-width: 100%;
+		}
+		.about-in {
+		    padding-left: 3em;
+		    padding-right: 3em
+		}
+	    .offcanvas {
+	    	background-color: #000d4a;
+	    }
+	    .fixed-top .offcanvas{
+			height: 100vh;
+			animation: none
+		}
+		.fixed-top .offcanvas .navbar-nav .nav-link{
 		color: #fff;
-	} 
-	.back-shape{
+		} 
+		  .back-shape{
 		clip-path: inset(0 0 0 0);
-	} 
-
+	}   
 }
 
 @media screen and (max-width: 592px){
@@ -104,7 +101,7 @@
     }
     .left{
     	padding-left: 10px;
-   		padding-right: 10px;
+    	padding-right: 10px;
     }
   
   
@@ -117,28 +114,30 @@
 		align-items: flex-start;
 	}
 	.about-in {
-	    padding-left: 1em;
-	    padding-right: 1em;
-	}
+		    padding-left: 1em;
+		    padding-right: 1em}
 	.two-btn{
 		flex-flow: column;
 		align-items:start;
 		flex-direction: column-reverse;
 		gap: 1rem!important;
 	}
+	.dropdown-menu {
+    	padding: 15px 5px
+	}
 	.textnimonail .slider{
-	
+		width: 100%;
 	}
 	.contact-felid  .slick-next{
-		right: -4px;
+		right: -2px;
 		z-index: 9;
 	}
-	.contact-felid .slick-prev{
+	.contact-felid .slick-prev {
 		left: -10px;
 		z-index: 9
 	}	
 	.lets-talk{
-		flex-flow: column!important;
+		 flex-flow: column!important;
 	    margin-top: 70px;
 	    padding: 30px;
 	}	
@@ -160,7 +159,6 @@
 		height: 35px;
 	}
 }
-
 @media screen and (max-width: 380px){
 	.service-option a{
 		padding: 30px;

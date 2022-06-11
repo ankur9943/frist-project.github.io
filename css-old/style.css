@@ -1,4 +1,5 @@
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 * {
 	margin: 0px;
@@ -15,7 +16,9 @@ body,
 html{
 	overflow-x: hidden!important;
 }
+
 .bg-white{background-color: #fff;}
+
 
 * img{
 	max-width:100%;
@@ -122,7 +125,7 @@ span.circle{
     background: #fff;
     -webkit-box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
     box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
-    animation: smoothScroll .9s forwards;
+    animation: smoothScroll 1s forwards;
     z-index: 99;
 }
 .fixed-top .navbar-nav .nav-link{
@@ -192,16 +195,55 @@ span.circle{
     color: #fff;
     letter-spacing: 1px;
 }
+	/*===========banner====caption=====End=========*/
+		/*===========banner====start=========*/
+
+/*.get-start{
+	background: url(../img/banner-btn.png);
+	width: 486px;
+	height: 75px;
+	display: inline-block;
+	top: 50px;
+	text-align: end;
+	font-size: 24px;
+	color: #fff;
+	padding-right: 60px;
+	line-height: 50px;
+	background-repeat: no-repeat;
+}
+.resquet span.circle {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    position: absolute;
+    top: -10%;
+    right: -130px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all .3s ;
+}*/
+
+.dropdown:hover> .dropdown-menu{
+	opacity: 1;
+	visibility:visible;
+	transform: translateY(8px);
+	border-top: 0px;
+}
 .dropdown-menu{
 	padding: 15px;
 	background:#fff;
+	visibility:hidden;
+	opacity: 0;
+	display: flex;
+	transform:translateY(100px);
 	transition: all .3s;
 	font-size:14px;
 	font-weight:500;
- 	border-left: 3px solid #350485
- }
-
-
+	min-width: 1025px;
+    left: -700px;
+    border-left: 3px solid #350485;
+  	position: absolute;
+}
 .drop-title p::before,
 .drop-title p::after{
 	height: 2px;
@@ -1868,36 +1910,6 @@ border-radius: 50px;
 	background-color: #000d4a;
 	color: #fff;
 	padding: 10px 15px;
-}
-
-/*=================android-app===start=============*/
-
-.grid-area ul{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 180px);
-	gap: 2rem;
-	justify-content:center ;	
-}
-.grid-area ul li{
-	padding-block: 15px;
-	color: #000d4a;
-	border-radius: 5px;
-	border: 1px solid #000d4a;
-	display: inline-flex;
-	position: relative;
-	align-items: center;
-}
-.grid-area ul li h6{
-	text-align: center;
-	flex: 1;
-}
-.grid-area ul li i{
-	font-size: 3em;
-	color: #000d4a;
-  	margin-left: -40px;
-  	background: #fff;
-  	stroke: 2;
-  	vertical-align: bottom;
 }
 
 
